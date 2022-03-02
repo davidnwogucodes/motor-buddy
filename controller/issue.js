@@ -6,12 +6,14 @@ module.exports = {
       const { nameOfMech, issueSpec, contact } = req.body;
       if (!nameOfMech || !issueSpec || !contact) {
         return res.status("401").json({
+            status:false,
           message: "please input fields",
         });
       }
       let mechanic = await Mech.findOne({ nameOfMech });
       if (mechanic) {
         return res.status(400).json({
+            status:false,
           message: "user already exists",
         });
       }
