@@ -8,3 +8,8 @@ motorbuddy was inpired by an event where a friend looked for a mechanic to fix h
 1. clone the repository.
 2. npm install express ejs bcryptjs connect-mongo sessions
 3. npm start
+
+# Technologies Used
+ 1. node/express
+ 2. ejs
+ 3. javascript
