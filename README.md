@@ -9,3 +9,8 @@ you with mechanics specialized for your car issues.
 1. git clone repo.
 2. npm install express bcrypt sessions ejs
 3. npm start
+4. 
+ # Technologies Used
+ 1. node/express
+ 2. ejs
+ 3. javascript
